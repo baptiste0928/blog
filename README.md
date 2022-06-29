@@ -1,6 +1,7 @@
 # baptiste0928 personal blog
+[![Build](https://github.com/baptiste0928/blog/actions/workflows/build.yml/badge.svg?event=push)](https://github.com/baptiste0928/blog/actions/workflows/build.yml)
 
-[➔ Go to `baptiste0928.net`](https://baptiste0928.net)
+**[➔ Go to `baptiste0928.net`](https://baptiste0928.net)**
 
 This repository contains the source files of my personal blog, using
 [Zola](https://www.getzola.org/) with the [Terminimal](https://github.com/pawroman/zola-theme-terminimal)
