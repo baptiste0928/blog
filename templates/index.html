@@ -1,0 +1,13 @@
+{% extends "terminimal/templates/index.html" %}
+
+{%- block title %}
+    {%- if page.title %}
+        {{ page.title }} | {{ config.title }}
+    {% else %}
+        {{ config.title }}
+    {% endif -%}
+{% endblock title -%}
+
+{% block extra_head %}
+    <script defer data-domain="yourdomain.com" src="https://plausible.io/js/script.js"></script>
+{% endblock %}

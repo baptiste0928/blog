@@ -1,0 +1,40 @@
+base_url = "https://baptiste0928.net"
+theme = "terminimal"
+
+title = "baptiste0928"
+description = "baptiste0928 personal blog on software development and more"
+default_language = "en"
+
+compile_sass = true
+minify_html = true
+generate_feed = true
+build_search_index = false
+
+taxonomies = [
+    { name = "tags" },
+]
+
+[markdown]
+highlight_theme = "boron"
+highlight_code = true
+
+render_emoji = true
+smart_punctuation = true
+external_links_target_blank = true
+
+[extra]
+logo_text = "baptiste0928.net"
+copyright_html = "<span>This work is licensed under <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc/4.0/\">CC BY-NC 4.0</a>.</span>"
+
+favicon = "/favicon.png"
+favicon_mimetype = "image/png"
+
+accent_color = "green"
+background_color = "dark"
+
+menu_items = [
+    {name = "blog", url = "$BASE_URL"},
+    {name = "archive", url = "$BASE_URL/archive"},
+    {name = "about me", url = "$BASE_URL/about"},
+    {name = "github", url = "https://github.com/baptiste0928", newtab = true},
+]
