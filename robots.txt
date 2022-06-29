@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://baptiste0928.net/sitemap.xml
